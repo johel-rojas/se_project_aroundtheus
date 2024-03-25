@@ -8,6 +8,10 @@ This project is a dynamic web application created using CSS and HTML, allowing u
 
 - [Link to video](https://www.loom.com/share/ffd98628be6f4945883adf0597c86162?sid=003f5327-5ca7-4065-87be-4056e3b61184)
 
+**Project deployed in GitHub pages**
+
+- [Link to webpage](https://johel-rojas.github.io/se_project_aroundtheus/)
+
 ## Technologies Used
 
 - CSS for styling and layout design.
