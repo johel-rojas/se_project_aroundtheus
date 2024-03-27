@@ -23,3 +23,28 @@
 .page__gallery-section {
   margin-bottom: 67px;
 }
+
+@media screen and (max-width: 800px) {
+  .page__content {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page__content {
+    padding: 0;
+  }
+
+  .page__gallery-section {
+    margin-bottom: 48px;
+  }
+
+  .page__header-section {
+    margin-top: 28px;
+    margin-bottom: 42px;
+  }
+
+  .page__profile-section {
+    margin-bottom: 36px;
+  }
+}

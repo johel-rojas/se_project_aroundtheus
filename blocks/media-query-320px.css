@@ -1,5 +1,5 @@
 @media screen and (max-width: 320px) {
-  profile__title {
+  .profile__title {
     font-size: 22px;
     line-height: 27px;
   }

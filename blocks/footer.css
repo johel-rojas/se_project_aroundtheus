@@ -4,3 +4,16 @@
   line-height: 22px;
   margin: 0 0 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__description {
+    margin: 0 19px 36px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__description {
+    font-size: 14px;
+  }
+}

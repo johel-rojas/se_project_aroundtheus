@@ -9,3 +9,18 @@
   width: 173px;
   height: 33px;
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    min-height: 56px;
+  }
+
+  .header__image {
+    margin-left: 27px;
+  }
+
+  .header__image {
+    width: 126px;
+    height: 24px;
+  }
+}
