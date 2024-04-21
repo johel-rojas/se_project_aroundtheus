@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
@@ -42,7 +42,7 @@
         </section>
         <section class="gallery page__gallery-section">
           <ul class="gallery__cards">
-            <li class="card">
+            <!-- <li class="card">
               <img
                 src="./images/yosemite.jpg"
                 alt="yosemite"
@@ -107,7 +107,7 @@
                 <h2 class="card__title">Lago di Braies</h2>
                 <button class="card__like-button" type="button"></button>
               </div>
-            </li>
+            </li> -->
           </ul>
         </section>
       </main>
@@ -123,19 +123,30 @@
           <input
             type="text"
             name="title"
+            id="profile-title-input"
             class="modal__form-input"
-            placeholder="Jacques Costeau"
+            placeholder="Name"
           />
           <input
             type="text"
             name="description"
+            id="profile-description-input"
             class="modal__form-input"
-            placeholder="Explorer"
+            placeholder="Description"
           />
           <button class="modal__button">Save</button>
         </form>
       </div>
     </div>
+    <template id="card-template">
+      <li class="card">
+        <img src="" alt="" class="card__image" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button class="card__like-button" type="button"></button>
+        </div>
+      </li>
+    </template>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
