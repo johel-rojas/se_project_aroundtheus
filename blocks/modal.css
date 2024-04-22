@@ -69,10 +69,6 @@
   margin-bottom: 0px;
 }
 
-input::placeholder {
-  color: #000;
-}
-
 .modal__button {
   margin-top: 48px;
   background-color: #000;
@@ -103,9 +99,7 @@ input::placeholder {
   .modal__close {
     width: 26px;
     height: 26px;
-    position: absolute;
     right: 8px;
-    background-image: url(../images/close-Icon-modal.svg);
   }
 
   .modal__button {
