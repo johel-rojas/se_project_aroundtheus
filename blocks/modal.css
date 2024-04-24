@@ -28,7 +28,6 @@
   width: 40px;
   height: 40px;
   padding: 0;
-  cursor: pointer;
   background-color: transparent;
   border: none;
   background-repeat: no-repeat;
@@ -37,6 +36,10 @@
   top: -44px;
   right: -44px;
   background-image: url(../images/close-Icon-modal.svg);
+}
+
+.modal__close:hover {
+  cursor: pointer;
 }
 
 .modal__heading {
@@ -79,6 +82,10 @@
   line-height: 21.78px;
   padding: 13.66px 0 18.49px 0;
   height: 50px;
+}
+
+.modal__button:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
