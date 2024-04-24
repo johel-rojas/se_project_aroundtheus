@@ -40,6 +40,7 @@
 
 .modal__close:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .modal__heading {
@@ -86,6 +87,7 @@
 
 .modal__button:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 600px) {
